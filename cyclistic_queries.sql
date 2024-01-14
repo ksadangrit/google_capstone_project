@@ -1,0 +1,37 @@
+/* Create a table containing data from all 12 individual months */
+CREATE TABLE tripdata2023 AS
+SELECT * 
+FROM tripdata202301
+UNION ALL
+SELECT * 
+FROM tripdata202302
+UNION ALL
+SELECT * 
+FROM tripdata202303
+UNION ALL
+SELECT * 
+FROM tripdata202304
+UNION ALL
+SELECT * 
+FROM tripdata202305
+UNION ALL
+SELECT * 
+FROM tripdata202306
+UNION ALL
+SELECT * 
+FROM tripdata202307
+UNION ALL
+SELECT * 
+FROM tripdata202308
+UNION ALL
+SELECT * 
+FROM tripdata202309
+UNION ALL
+SELECT * 
+FROM tripdata202310
+UNION ALL
+SELECT * 
+FROM tripdata202311
+UNION ALL
+SELECT * 
+FROM tripdata202312
